@@ -2,6 +2,12 @@
 
 Orquestador de herramientas de negocio con planes explícitos, presupuesto acumulado y aprobación de escrituras. Consulta pedidos e inventario sintéticos y puede preparar una propuesta local sin modificar existencias ni invocar servicios externos.
 
+## Diseño y tecnologías
+
+Python 3.10+, SQLite y herramientas de negocio permitidas. La planificación Ollama es opcional; se incluyen workflow n8n, Docker y CI.
+
+[Diagrama de arquitectura](docs/architecture.md) · [Diagrama del flujo](docs/flow.md) · [Tecnologías y alcance](docs/technologies.md)
+
 ## Ejecutar
 
 Requiere Python 3.10 o posterior; el modo local usa la biblioteca estándar.
